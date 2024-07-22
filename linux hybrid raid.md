@@ -74,7 +74,7 @@ mdadm --grow /dev/md1 -n 3
 
 
 
-
+## LVM expand
 
 ####  Resize PV
 pvresize /dev/md1
@@ -92,11 +92,11 @@ resize2fs /dev/mapper/storage-share
 
 
 
+---
 
 
 
-
-####  Remove All
+##  Remove All
 
 mdadm --detail /dev/md1
 
