@@ -53,11 +53,6 @@ mount /dev/storage/share /mnt/share
 ####  
 
 
-```md
----
-```
-
-
 
 # Expand to 2 drives (mirror)
 ####  Add 2nd disk
@@ -77,32 +72,6 @@ mdadm /dev/md1 --add-spare /dev/sde
 ####  Grow array
 mdadm --grow /dev/md1 -n 3
 
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-####  Grow array
-mdadm --grow /dev/md1 -n 3
-
-
-
-```md
----
-```
 
 
 
